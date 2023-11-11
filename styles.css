@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+}
+
+.leaderboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2c3e50; /* Darker background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #34495e; /* Border color for dark mode */
+}
+
+th {
+    background-color: #2c3e50; /* Darker header background color */
+}
+
+h1 {
+    text-align: center;
+    color: #27ae60; /* Green color for the title */
+}
+
+/* Styling for top 3 users */
+td:first-child {
+    position: relative;
+}
+
+td:first-child::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('gold.png'); /* Replace with your gold icon image */
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('silver.png'); /* Replace with your silver icon image */
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('bronze.png'); /* Replace with your bronze icon image */
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styling for toggle buttons */
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+button:hover {
+    background-color: #2ecc71; /* Light green hover color */
+    color: #fff;
+}
+
+button#apcsButton {
+    background-color: #27ae60; /* Dark green color for AP CS button */
+}
+
+button#advancedButton {
+    background-color: #2ecc71; /* Light green color for Advanced Programming button */
+}
