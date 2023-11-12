@@ -41,11 +41,16 @@ td:first-child {
     position: relative;
 }
 
+td:first-child::before,
+td:nth-child(2)::before,
+td:nth-child(3)::before {
+    width: 20px;
+    height: 20px;
+}
+
 td:first-child::before {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
     background-image: url('gold.png'); /* Replace with your gold icon image */
     background-size: cover;
     top: 50%;
@@ -56,8 +61,6 @@ td:first-child::before {
 td:nth-child(2)::before {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
     background-image: url('silver.png'); /* Replace with your silver icon image */
     background-size: cover;
     top: 50%;
@@ -68,8 +71,6 @@ td:nth-child(2)::before {
 td:nth-child(3)::before {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
     background-image: url('bronze.png'); /* Replace with your bronze icon image */
     background-size: cover;
     top: 50%;
@@ -85,18 +86,20 @@ td:nth-child(3)::before {
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 0 10px;
+    padding: 10px 15px; /* Adjusted padding for smaller screens */
+    font-size: 14px; /* Adjusted font size for smaller screens */
+    margin: 0 5px; /* Adjusted margin for smaller screens */
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for buttons */
 }
 
 button:hover {
     background-color: #2ecc71; /* Light green hover color */
     color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased box shadow on hover */
 }
 
 button#apcsButton {
@@ -105,4 +108,26 @@ button#apcsButton {
 
 button#advancedButton {
     background-color: #2ecc71; /* Light green color for Advanced Programming button */
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .leaderboard-container {
+        padding: 10px; /* Adjusted padding for smaller screens */
+    }
+
+    table {
+        font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+
+    th, td {
+        padding: 10px; /* Adjusted padding for smaller screens */
+    }
+
+    td:first-child::before,
+    td:nth-child(2)::before,
+    td:nth-child(3)::before {
+        width: 15px; /* Adjusted icon size for smaller screens */
+        height: 15px; /* Adjusted icon size for smaller screens */
+    }
 }
