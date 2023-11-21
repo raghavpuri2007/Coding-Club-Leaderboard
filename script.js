@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Sample data for AP CS class
     const apcsUsers = [
-        { name: "Aadi Shah", points: 100, classPeriod: TBD },
+        { name: "Aadi Shah", points: 100, classPeriod: 4 },
         // { name: "Jane Smith", points: 120, classPeriod: 2 },
         // { name: "Michael Johnson", points: 110, classPeriod: 1 },
         // { name: "Emily Davis", points: 100, classPeriod: 2 },
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Sample data for Advanced Programming class
     const advancedProgrammingUsers = [
-        { name: "Hiruy Derese", points: 100, classPeriod: TBD },
+        { name: "Hiruy Derese", points: 100, classPeriod: 2 },
         // { name: "Bob Anderson", points: 140, classPeriod: 2 },
         // { name: "Ella Martinez", points: 130, classPeriod: 1 },
         // { name: "William Garcia", points: 20, classPeriod: 2 },
