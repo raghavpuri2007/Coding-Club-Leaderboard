@@ -1,30 +1,30 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Sample data for AP CS class
     const apcsUsers = [
-        { name: "John Doe", points: 150, classPeriod: 1 },
-        { name: "Jane Smith", points: 120, classPeriod: 2 },
-        { name: "Michael Johnson", points: 110, classPeriod: 1 },
-        { name: "Emily Davis", points: 100, classPeriod: 2 },
-        { name: "David Brown", points: 90, classPeriod: 1 },
-        { name: "Olivia White", points: 85, classPeriod: 2 },
-        { name: "James Wilson", points: 80, classPeriod: 1 },
-        { name: "Sophia Miller", points: 75, classPeriod: 2 },
-        { name: "Daniel Moore", points: 70, classPeriod: 1 },
-        { name: "Ava Taylor", points: 65, classPeriod: 2 },
+        { name: "Aadi Shah", points: 100, classPeriod: TBD },
+        // { name: "Jane Smith", points: 120, classPeriod: 2 },
+        // { name: "Michael Johnson", points: 110, classPeriod: 1 },
+        // { name: "Emily Davis", points: 100, classPeriod: 2 },
+        // { name: "David Brown", points: 90, classPeriod: 1 },
+        // { name: "Olivia White", points: 85, classPeriod: 2 },
+        // { name: "James Wilson", points: 80, classPeriod: 1 },
+        // { name: "Sophia Miller", points: 75, classPeriod: 2 },
+        // { name: "Daniel Moore", points: 70, classPeriod: 1 },
+        // { name: "Ava Taylor", points: 65, classPeriod: 2 },
     ];
 
     // Sample data for Advanced Programming class
     const advancedProgrammingUsers = [
-        { name: "Alice Johnson", points: 180, classPeriod: 1 },
-        { name: "Bob Anderson", points: 140, classPeriod: 2 },
-        { name: "Ella Martinez", points: 130, classPeriod: 1 },
-        { name: "William Garcia", points: 20, classPeriod: 2 },
-        { name: "Grace Robinson", points: 110, classPeriod: 1 },
-        { name: "Liam Davis", points: 100, classPeriod: 2 },
-        { name: "Chloe Smith", points: 95, classPeriod: 1 },
-        { name: "Mason Taylor", points: 90, classPeriod: 2 },
-        { name: "Zoe Brown", points: 85, classPeriod: 1 },
-        { name: "Ethan Wilson", points: 80, classPeriod: 2 },
+        { name: "Hiruy Derese", points: 100, classPeriod: TBD },
+        // { name: "Bob Anderson", points: 140, classPeriod: 2 },
+        // { name: "Ella Martinez", points: 130, classPeriod: 1 },
+        // { name: "William Garcia", points: 20, classPeriod: 2 },
+        // { name: "Grace Robinson", points: 110, classPeriod: 1 },
+        // { name: "Liam Davis", points: 100, classPeriod: 2 },
+        // { name: "Chloe Smith", points: 95, classPeriod: 1 },
+        // { name: "Mason Taylor", points: 90, classPeriod: 2 },
+        // { name: "Zoe Brown", points: 85, classPeriod: 1 },
+        // { name: "Ethan Wilson", points: 80, classPeriod: 2 },
     ];
 
     let currentLeaderboard = "APCS";
