@@ -24,6 +24,6 @@ Columns include:
 - **Class Period**: Member's class period.
 
 ## Contact
-For questions or assistance regarding the leaderboard or club activities, contact any coding club officer.
+For questions or assistance regarding the leaderboard or club activities, contact any coding club officer (ie. Raghav Puri's email is 1107707@apps.nsd.org).
 
 Let's strive for excellence, collaborate, and have fun learning together in our coding club! Happy Coding! 🌟
