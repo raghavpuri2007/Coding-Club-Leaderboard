@@ -1,31 +1,29 @@
-# Coding Club Leaderboard
+# 🏆 Coding Club Leaderboard 🚀
 
-Welcome to the Coding Club Leaderboard! This repository keeps track of the progress of our members in the coding club extra credit practice problems!
+Welcome to the Coding Club Leaderboard! This repository tracks member progress in our extra credit practice problems!
 
 ## Purpose
-The main purpose of this leaderboard is to encourage participation, acknowledge accomplishments, and foster a sense of community among our coding club members. It serves as a visual representation of the achievements of individuals within the club.
+The leaderboard aims to encourage participation, acknowledge achievements, and build a strong community among our coding club members.
 
 ## How It Works
-- **Points System**: Members earn points based on their participation and success in coding challenges and attending meetings.
-- **Updating Scores**: Scores are updated periodically by the club administrators based on the submissions and participation recorded during club events.
-- **Visibility**: The leaderboard is public to all members, providing transparency and motivation to excel.
+- **Points System**: Members earn points by attending meetings (50 points for 30+ minutes) and completing extra credit practice problems (100 points). Stay tuned for bonus point challenges!
+- **Updating Scores**: Scores are periodically updated by club administrators based on event participation and submissions.
+- **Visibility**: The leaderboard is public, motivating members to excel.
 
 ## Contributing
-To contribute to the leaderboard:
-1. **Participation**: Engage actively in club activities, attend meetings, and participate in coding challenges and projects.
-2. **Submitting Progress**: Show your completed problems to one of the officers on the officer team.
-3. **Encouraging Others**: Help and support fellow members to foster a collaborative environment within the club.
+To contribute:
+1. **Participation**: Engage actively in club activities, attend meetings, and tackle coding challenges.
+2. **Submitting Progress**: Show completed problems to one of the officers.
+3. **Encouraging Others**: Foster a supportive environment by helping fellow members.
 
 ## Leaderboard Structure
-The leaderboard consists of columns displaying:
-- **Rank**: Member's current rank based on their accumulated points.
+Columns include:
+- **Rank**: Member's current rank based on accumulated points.
 - **Name**: Member's name or identifier.
-- **Points**: Total points earned by the member.
+- **Points**: Total earned points.
 - **Class Period**: Member's class period.
 
 ## Contact
-If you have any questions, suggestions, or need assistance regarding the leaderboard or coding club activities, feel free to contact any one of the coding club officers.
+For questions or assistance regarding the leaderboard or club activities, contact any coding club officer.
 
-We encourage every member to strive for excellence, foster collaboration, and have fun while learning and growing together in our coding club!
-
-Happy Coding!
+Let's strive for excellence, collaborate, and have fun learning together in our coding club! Happy Coding! 🌟
