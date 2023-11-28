@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Sample data for AP CS class
     const apcsUsers = [
-        { name: "Aadi Shah", points: 150, classPeriod: 4 },
-        // { name: "Test Test", points: 50, classPeriod: 0 },
-        // { name: "Jane Smith", points: 120, classPeriod: 2 },
-        // { name: "Michael Johnson", points: 110, classPeriod: 1 },
-        // { name: "Emily Davis", points: 100, classPeriod: 2 },
-        // { name: "David Brown", points: 90, classPeriod: 1 },
-        // { name: "Olivia White", points: 85, classPeriod: 2 },
+        { name: "Aadi Shah", points: 100, classPeriod: 6 },
+        { name: "Logan Lighthall", points: 100, classPeriod: 7 },
+        { name: "Calder Davis", points: 100, classPeriod: 7 },
+        { name: "Alex North", points: 100, classPeriod: 7 },
+        { name: "Thomas Dela Merced", points: 100, classPeriod: 4 },
+        { name: "Eshaan Chowdhry", points: 100, classPeriod: 5 },
+        { name: "Shriya Patel", points: 100, classPeriod: 7 },
         // { name: "James Wilson", points: 80, classPeriod: 1 },
         // { name: "Sophia Miller", points: 75, classPeriod: 2 },
         // { name: "Daniel Moore", points: 70, classPeriod: 1 },
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Sample data for Advanced Programming class
     const advancedProgrammingUsers = [
-        { name: "Hiruy Derese", points: 150, classPeriod: 2 },
+        { name: "Hiruy Derese", points: 100, classPeriod: 2 },
         { name: "Jishnu Mehta", points: 50, classPeriod: 1 },
         // { name: "Ella Martinez", points: 130, classPeriod: 1 },
         // { name: "William Garcia", points: 20, classPeriod: 2 },
