@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { name: "Meri Galstyan", points: 300, classPeriod: 6 },
         { name: "Nate Pickering", points: 100, classPeriod: 6 },
         { name: "Sewit Deresse", points: 200, classPeriod: 4 },
-        { name: "Shriya Patel", points: 100, classPeriod: 7 },
+        { name: "Shriya Patel", points: 300, classPeriod: 7 },
         { name: "Thomas Dela Merced", points: 300, classPeriod: 4 },
         { name: "Thomas Cooper", points: 100, classPeriod: 5 },
     ];
