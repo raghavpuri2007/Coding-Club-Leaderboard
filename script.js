@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function() {
         { name: "Aadi Shah", points: 300, classPeriod: 6 },
         { name: "Aaron Read", points: 200, classPeriod: 6 },
         { name: "Alex North", points: 300, classPeriod: 7 },
-        { name: "Alex Ko", points: 300, classPeriod: 6 },
+        { name: "Alex Ko", points: 400, classPeriod: 6 },
         { name: "Alex Huang", points: 100, classPeriod: 6 },
         { name: "Amit Yosefi", points: 100, classPeriod: 4 },
         { name: "Amy Zednick", points: 100, classPeriod: 5 },
-        { name: "Arunima Deval", points: 100, classPeriod: 7 },
+        { name: "Arunima Deval", points: 200, classPeriod: 7 },
         { name: "Calder Davis", points: 100, classPeriod: 7 },
         { name: "Daniel Reinholdtsen", points: 100, classPeriod: 6 },
         { name: "Daniel Major", points: 0, classPeriod: 5 },
@@ -23,10 +23,11 @@ document.addEventListener("DOMContentLoaded", function() {
         { name: "Lyle Whittlinger", points: 100, classPeriod: 7 },
         { name: "Meri Galstyan", points: 300, classPeriod: 6 },
         { name: "Nate Pickering", points: 100, classPeriod: 6 },
-        { name: "Sewit Deresse", points: 200, classPeriod: 4 },
+        { name: "Sewit Deresse", points: 300, classPeriod: 4 },
         { name: "Shriya Patel", points: 300, classPeriod: 7 },
         { name: "Thomas Dela Merced", points: 300, classPeriod: 4 },
         { name: "Thomas Cooper", points: 100, classPeriod: 5 },
+        { name: "Anishka Gupta", points: 100, classPeriod: 6 },
     ];
 
     // Sample data for Advanced Programming class
