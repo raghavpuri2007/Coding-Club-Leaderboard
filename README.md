@@ -1,4 +1,4 @@
-# 🏆 Coding Club Leaderboard 🚀
+# 🏆 Coding Club 2023 - 2024 Leaderboard 🚀
 
 Welcome to the Coding Club Leaderboard! This repository tracks member progress in our extra credit practice problems!
 
